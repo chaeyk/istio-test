@@ -1,0 +1,29 @@
+@host = http://localhost:3000
+
+###
+
+GET {{host}}/
+
+###
+
+PUT {{host}}/liveness/true
+
+###
+
+PUT {{host}}/liveness/false
+
+###
+
+GET {{host}}/liveness
+
+###
+
+PUT {{host}}/readiness/true
+
+###
+
+PUT {{host}}/readiness/false
+
+###
+
+GET {{host}}/readiness

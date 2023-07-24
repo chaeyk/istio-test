@@ -1,0 +1,11 @@
+{
+  "name": "istio-test-caller",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "docker": "docker build -t chaeyk/$npm_package_name:$npm_package_version . && docker push chaeyk/$npm_package_name:$npm_package_version"
+  }
+}
